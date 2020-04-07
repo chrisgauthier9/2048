@@ -20,6 +20,8 @@ class GameScene: SKScene {
     
     // Another change
     
+    // paus paus paus 
+    
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
     
