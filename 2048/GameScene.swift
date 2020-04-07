@@ -13,6 +13,8 @@ class GameScene: SKScene {
     
     //Hello Thea
     
+    //Change 2
+    
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
     
