@@ -12,7 +12,18 @@ import GameplayKit
 
 class GameScene: SKScene {
     
-    
+    override func didMove(to view: SKView) {
+        
+        
+        let background = SKSpriteNode(imageNamed: "Background")
+        background.size = self.size
+        background.position = CGPoint(x: self.size.width/2, y: self.size.height/2)
+        background.zPosition = 0
+        self.addChild(background)
+        
+        
+        
+    }
     
     
 }
