@@ -11,6 +11,8 @@ import GameplayKit
 
 class GameScene: SKScene {
     
+    //Hello Thea
+    
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
     
