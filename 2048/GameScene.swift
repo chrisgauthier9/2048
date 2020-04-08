@@ -9,7 +9,6 @@
 import SpriteKit
 import GameplayKit
 
-
 class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
@@ -22,6 +21,7 @@ class GameScene: SKScene {
         self.addChild(background)
         
         
+
         
     }
     
