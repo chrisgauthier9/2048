@@ -23,6 +23,7 @@ class MainMenuScene: SKScene{
         let newGame = SKSpriteNode(imageNamed: "New Game")
         newGame.position = CGPoint(x: self.size.width*0.5, y: self.size.height*0.5)
         newGame.zPosition = 2
+        newGame.name = "newGameButton"
         self.addChild(newGame)
         
         let gameBy = SKLabelNode(fontNamed: "Clear Sans - Mediuf")
@@ -42,9 +43,22 @@ class MainMenuScene: SKScene{
         self.addChild(gameTitle)
         
         
-        
-    
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
+        for touch: AnyObject in touches{
+            
+            let pointOfTouch = touch.location(in: self)
+            let nodeITapped = atPoint(_: pointOfTouch)
+            if nodeITapped.name == "newGameButton" {
+                
+                let sceneToMoveTo =  GameScene(size: self.size)
+                sceneToMoveTo.scaleMode = self.scaleMode
+                let myTransition = SKTransition.fade(withDuration: 0.5)
+                self.view!.presentScene(sceneToMoveTo, transition: myTransition)
+            }
+        }
+    }
 
 }
