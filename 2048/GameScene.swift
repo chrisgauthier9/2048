@@ -9,10 +9,13 @@
 import SpriteKit
 import GameplayKit
 
+var gameScore = 0
+
 class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
         
+        gameScore = 0
         
         let background = SKSpriteNode(imageNamed: "Background")
         background.size = self.size
