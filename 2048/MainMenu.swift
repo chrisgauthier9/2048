@@ -26,7 +26,7 @@ class MainMenuScene: SKScene{
         newGame.name = "newGameButton"
         self.addChild(newGame)
         
-        let gameBy = SKLabelNode(fontNamed: "Clear Sans - Mediuf")
+        let gameBy = SKLabelNode(fontNamed: "Clear Sans - Medium")
         gameBy.text = "By Chris and Thea"
         gameBy.fontSize = 50
         gameBy.fontColor = SKColor.darkGray
@@ -34,7 +34,7 @@ class MainMenuScene: SKScene{
         gameBy.zPosition = 1
         self.addChild(gameBy)
         
-        let gameTitle = SKLabelNode(fontNamed: "Clear Sans - Mediuf")
+        let gameTitle = SKLabelNode(fontNamed: "Clear Sans - Medium")
         gameTitle.text = "2048"
         gameTitle.fontSize = 200
         gameTitle.fontColor = SKColor.darkGray

@@ -20,13 +20,7 @@ class GameScene: SKScene {
         background.zPosition = 0
         self.addChild(background)
         
-        let bigPP = SKLabelNode(fontNamed: "Clear Sans - Mediuf")
-        bigPP.text = "U have big pp"
-        bigPP.fontSize = 50
-        bigPP.fontColor = SKColor.darkGray
-        bigPP.position = CGPoint(x: self.size.width*0.5, y: self.size.height*0.78)
-        bigPP.zPosition = 1
-        self.addChild(bigPP)
+
 
         
     }
