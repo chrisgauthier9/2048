@@ -11,22 +11,27 @@ import GameplayKit
 
 class GameScene: SKScene {
     
+    
+    let gameArea = SKSpriteNode(imageNamed: "backgroundSquare")
+    
     override func didMove(to view: SKView) {
         
         
         let background = SKSpriteNode(imageNamed: "Background")
         background.size = self.size
-        background.position = CGPoint(x: self.size.width/2, y: self.size.height/2)
+        background.position = CGPoint(x: self.size.width*0.5, y: self.size.height*0.5)
         background.zPosition = 0
         self.addChild(background)
+ 
+        gameArea.setScale(1)
+        gameArea.position =  CGPoint(x: self.size.width*0.5, y: self.size.height*0.3)
+        gameArea.zPosition = 1
+        self.addChild(gameArea)
         
-        let bigPP = SKLabelNode(fontNamed: "Clear Sans - Mediuf")
-        bigPP.text = "U have big pp"
-        bigPP.fontSize = 50
-        bigPP.fontColor = SKColor.darkGray
-        bigPP.position = CGPoint(x: self.size.width*0.5, y: self.size.height*0.78)
-        bigPP.zPosition = 1
-        self.addChild(bigPP)
+        
+        
+        
+        
 
         
     }

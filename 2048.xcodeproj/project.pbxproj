@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D97865C3243E2CE0004B6299 /* GameOverSceneFromSoloMission.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97865C2243E2CE0004B6299 /* GameOverSceneFromSoloMission.swift */; };
 		D978CCF1243D7342008086E7 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D978CCF0243D7342008086E7 /* MainMenu.swift */; };
 		D9E0E423243C0C0F0094E99B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E0E422243C0C0F0094E99B /* AppDelegate.swift */; };
 		D9E0E425243C0C0F0094E99B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D9E0E424243C0C0F0094E99B /* GameScene.sks */; };
@@ -39,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D97865C2243E2CE0004B6299 /* GameOverSceneFromSoloMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverSceneFromSoloMission.swift; sourceTree = "<group>"; };
 		D978CCF0243D7342008086E7 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		D9E0E41F243C0C0F0094E99B /* 2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E0E422243C0C0F0094E99B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 				D9E0E428243C0C0F0094E99B /* GameScene.swift */,
 				D978CCF0243D7342008086E7 /* MainMenu.swift */,
 				D9E0E42A243C0C0F0094E99B /* GameViewController.swift */,
-				D97865C2243E2CE0004B6299 /* GameOverSceneFromSoloMission.swift */,
 				D9E0E42C243C0C0F0094E99B /* Main.storyboard */,
 				D9E0E42F243C0C110094E99B /* Assets.xcassets */,
 				D9E0E431243C0C110094E99B /* LaunchScreen.storyboard */,
@@ -276,7 +273,6 @@
 				D9E0E429243C0C0F0094E99B /* GameScene.swift in Sources */,
 				D9E0E42B243C0C0F0094E99B /* GameViewController.swift in Sources */,
 				D9E0E423243C0C0F0094E99B /* AppDelegate.swift in Sources */,
-				D97865C3243E2CE0004B6299 /* GameOverSceneFromSoloMission.swift in Sources */,
 				D978CCF1243D7342008086E7 /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
